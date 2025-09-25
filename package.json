@@ -1,0 +1,31 @@
+{
+  "name": "football-bot",
+  "version": "1.0.0",
+  "description": "Football Big Match Bot with Telegram + Render",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "canvas": "^2.11.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^7.6.3",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.63.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "keywords": [
+    "telegram",
+    "football",
+    "bot",
+    "render",
+    "bigmatch"
+  ],
+  "author": "Top",
+  "license": "MIT"
+}
